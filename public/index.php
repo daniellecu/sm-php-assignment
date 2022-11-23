@@ -1,5 +1,4 @@
 <?php
-
 use App\Dispatcher\RouteDispatcher;
 use Dotenv\Dotenv;
 

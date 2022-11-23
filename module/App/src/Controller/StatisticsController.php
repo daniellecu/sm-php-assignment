@@ -66,6 +66,7 @@ class StatisticsController extends Controller
             $params = ParamsBuilder::reportStatsParams($date);
 
             $posts = $this->socialService->fetchPosts();
+            
             $stats = $this->statsService->calculateStats($posts, $params);
 
             $response = [
